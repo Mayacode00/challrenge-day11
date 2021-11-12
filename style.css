@@ -144,27 +144,6 @@ footer {
   cursor: pointer;
 }
 @media screen and (max-width: 1300px) {
-  main{
-    width: 700px;
-  }
-  .computer{
-    height: 600px;
-  }
-  .quicknotes{
-    margin: 70px 30px;
-  }
-}
-@media screen and (max-width: 1030px) {
-  .third-container {
-    transform: scale(0.9);
-    margin-left: -150px;
-  }
-  .site {
-    transform: scale(0.9);
-    margin-left: -160px;
-  }
-}
-@media screen and (max-width: 770px) {
   body {
     font-size: 15px;
   }
@@ -308,6 +287,7 @@ footer {
   }
   .last-container {
     flex-direction: column;
+    justify-content: center;
   }
   .contact {
     margin-left: 60px;
