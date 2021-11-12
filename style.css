@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: #9fabb2;
+  width: 100vw;
+  overflow-x: hidden;
+  font-size: 18px;
+}
+main {
+  width: 700px;
+  text-align: center;
+  margin: 100px auto;
+}
+h2 {
+  font-size: 35px;
+  color: #4c545d;
+}
+.min-first-container {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 12px;
+  margin-bottom: 100px;
+}
+.ios {
+  background: #26baa4;
+  padding: 10px;
+  width: 150px;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+.mac {
+  background: #9fabb2;
+  padding: 10px;
+  width: 150px;
+  border-radius: 20px;
+  margin-left: 5px;
+  transition: 0.6s ease-in-out;
+}
+h4 {
+  font-size: 30px;
+  color: #4c545d;
+}
+.second-container {
+  display: flex;
+  width: 1300px;
+  margin-top: 50px;
+  transform: translateX(-420px);
+}
+.quicknotes {
+  text-align: left;
+  margin: 70px 150px;
+}
+h5 {
+  color: #4c545d;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.notes {
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+.access {
+  color: #4c545d;
+  margin-top: 150px;
+}
+.devices {
+  margin: 70px -80px;
+}
+.supercharge {
+  color: #4c545d;
+}
+.third-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px -190px 40px -190px;
+}
+.header {
+  font-size: 18px;
+  width: 350px;
+}
+.site {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px -190px 100px -190px;
+}
+.sites {
+  height: 30px;
+}
+h3 {
+  color: #4c545d;
+  font-size: 25px;
+}
+footer {
+  text-align: center;
+  background: rgba(159, 171, 178, 0.26);
+  margin-top: 60px;
+}
+.last-container {
+  display: flex;
+  justify-content: space-around;
+}
+.logo2 {
+  height: 50px;
+}
+.contact {
+  margin: 40px;
+}
+.icons {
+  margin-right: 30px;
+}
+/* pseudo element*/
+.ios:hover {
+  background: #058874;
+  -webkit-box-shadow: 15px 10px 53px -27px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 15px 10px 53px -27px rgba(0, 0, 0, 0.75);
+  box-shadow: 15px 10px 53px -27px rgba(7, 136, 125, 0.75);
+  transition: all 0.6s ease;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+.mac:hover {
+  background: #0e7ac2;
+  -webkit-box-shadow: 15px 10px 53px -27px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 15px 10px 53px -27px rgba(0, 0, 0, 0.75);
+  box-shadow: 15px 10px 53px -27px rgba(29, 65, 133, 0.75);
+  transition: all 0.6s ease;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+.sites:hover {
+  color: #4c545d;
+  cursor: pointer;
+}
+.guides:hover {
+  color: #4c545d;
+  transition: 0.6s ease-in;
+  cursor: pointer;
+}
+@media screen and (max-width: 1300px) {
+  main{
+    width: 700px;
+  }
+  .computer{
+    height: 600px;
+  }
+  .quicknotes{
+    margin: 70px 30px;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .third-container {
+    transform: scale(0.9);
+    margin-left: -150px;
+  }
+  .site {
+    transform: scale(0.9);
+    margin-left: -160px;
+  }
+}
+@media screen and (max-width: 770px) {
+  body {
+    font-size: 15px;
+  }
+  main {
+    width: 600px;
+  }
+  .logo {
+    transform: scale(0.6);
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+  .second-container {
+    width: 1050px;
+  }
+  .computer {
+    transform: scale(0.8);
+  }
+  .quicknotes {
+    transform: scale(0.8);
+    margin-left: -50px;
+  }
+  .access {
+    margin-top: 100px;
+  }
+  .devices {
+    transform: scale(0.8);
+    margin: 10px -160px;
+  }
+  .third-container {
+    transform: scale(0.6);
+    margin-left: -200px;
+  }
+  .site {
+    transform: scale(0.6);
+    margin-left: -200px;
+  }
+  .last-container {
+    font-size: 10px;
+    margin-left: 50px;
+  }
+  .guides {
+    width: 70px;
+  }
+  .icons {
+    transform: scale(0.7);
+    margin-right: 0;
+  }
+  .contact {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  body {
+    background-repeat: no-repeat;
+    font-size: 18px;
+  }
+  main {
+    width: 300px;
+    overflow: hidden;
+  }
+  h2{
+    font-size: 30px;
+  }
+  .min-first-container {
+    display: block;
+    font-size: 18px;
+    margin: 80px 0px 80px 0;
+  }
+  .ios {
+    padding: 10px;
+    width: 300px;
+    padding: 20px;
+    margin-right: 0;
+    margin-bottom: 25px;
+    border-radius: 30px;
+  }
+  .mac {
+    padding: 10px;
+    width: 300px;
+    padding: 20px;
+    margin-left: 0;
+    border-radius: 30px;
+  }
+  .second-container {
+    display: block;
+    width: 0px;
+    transform: translateX(0);
+    margin-top: -80px;
+  }
+  .computer {
+    transform: scale(0.3);
+    margin-left: -240px;
+    margin-right: 20px;
+  }
+  .notes{
+    font-size: 25px;
+  }
+  .quicknotes {
+    width: 350px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -100px;
+    margin-bottom: 50px;
+    margin-left: -25px;
+  }
+  h4{
+    font-size: 35px;
+  }
+  h5 {
+    font-size: 35px;
+  }
+  .devices {
+    transform: scale(0.3);
+    margin: -100px -300px;
+  }
+  .third-container {
+    display: block;
+    text-align: center;
+    width: 400px;
+    margin: 10px -50px;
+    transform: scale(0.8);
+  }
+  .header {
+    margin-bottom: 30px;
+    width: 400px;
+  }
+  .site {
+    flex-direction: column;
+    width: 100px;
+    margin: 0;
+    text-align: center;
+    margin: -100px 100px;
+  }
+  .sites {
+    transform: scale(1.3);
+    margin-bottom: 100px;
+  }
+  .last-container {
+    flex-direction: column;
+  }
+  .contact {
+    margin-left: 60px;
+    margin-bottom: 0;
+    font-size: 15px;
+  }
+  .guides{
+    width: 150px;
+  }
+  .logo2{
+    margin-left: -80px;
+  }
+  .icon{
+    margin-left: -40px;
+  }
+}
